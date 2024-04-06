@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightseagreen;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Logo{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 800px;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: aliceblue;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+    color: dimgray;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    padding: 10px 0 0 0;
+    font-family: monospace;
+}
+
+.header-content {
+    display: flex;
+    flex: 2;
+}
+
+.header-txt{
+    flex-basis: 50%;
+}
+
+.header-txt span{
+    font-size: 30px;
+    font-weight: 600;
+    width: 800;
+    color: rgba(193, 6, 56, 0.612);
+}
+
+.header-txt h1{
+    font-size: 100px;
+    color: rgba(135, 61, 135, 0.704);
+    line-height: 1;
+    font-family: fantasy;
+    margin: 10px 0 25px 10px;
+}
+
+.header-txt h2{
+    font-size: 50px;
+    color: rgba(116, 55, 174, 0.678);
+    line-height: 1;
+    font-family: fantasy;
+    margin: 10px 0 25px 0;
+}
+
+.about{
+    padding: 10px 0 25px 0;
+    display: flex;
+    align-items: center;
+}
+
+.about-img{
+    flex-basis: 400px;
+}
+
+.about-img img{
+    width: 350px;
+}
+
+.about-txt{
+    flex-basis: 70%;
+}
+
+h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgba(141, 93, 144, 0.764);
+    margin-bottom: 20px;
+}
+
+.about-txt p{
+    color: #DEDEDE;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.portafolio{
+    display: 10px 0;
+    flex: 1;
+}
+
+.portafolio-content{
+    margin-top: 70px;
+}
+
+.portafolio-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.portafolio-txt{
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.portafolio-txt{
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.portafolio-txt h3{
+    color: rgb(11, 53, 91);
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.portafoliotxt p{
+    font-size: 17px;
+    color: dimgrey;
+    margin-bottom: 25px;
+}
+
+.footer{
+    padding: 50px 0;
+    color: rgb(97, 22, 134);
+}
+
+
